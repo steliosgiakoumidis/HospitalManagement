@@ -1,0 +1,41 @@
+{
+  "doctors": [
+    {
+      "Name": "John",
+      "Roles": ["Oncologist"]
+    },
+    {
+      "Name": "Anna",
+      "Roles": ["GeneralPractitioner"]
+    },
+    {
+      "Name": "Laura",
+      "Roles": ["Oncologist", "GeneralPractitioner"]
+    }
+  ],
+
+  "treatmentMachines": [
+    {
+      "Name": "MachineA"
+      ,"Capability": "Advanced"
+    },
+    {
+      "Name": "MachineB"
+      ,"Capability": "Simple"
+    }
+  ],
+
+  "treatmentRooms": [
+    { "Name": "RoomOne" },
+    { "Name": "RoomTwo" },
+    {
+      "Name": "RoomThree",
+      "TreatmentMachine": "MachineA"
+    },
+    {
+      "Name": "RoomFour",
+      "TreatmentMachine": "MachineB"
+    }
+  ]
+}
+ 

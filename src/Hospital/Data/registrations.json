@@ -1,0 +1,25 @@
+﻿[
+  {
+    "offsetDays": 0,
+    "Patient": {
+      "name": "Lucas",
+      "condition": "cancer",
+      "topography": "head_neck"
+    }
+  },
+  {
+    "offsetDays": 1,
+    "Patient": {
+      "name": "Regina",
+      "condition": "cancer",
+      "topography": "breast"
+    }
+  },
+  {
+    "offsetDays": 3,
+    "Patient": {
+      "name": "Jack",
+      "condition": "flu"
+    }
+  }
+]
